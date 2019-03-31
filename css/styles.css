@@ -25,14 +25,22 @@
 
   .navStyles
   {
-    background-color: antiquewhite;
-    border: 1px solid green;
+    background-color: whitesmoke;
   }
-  .test
+  .left
   {
-    /*background-color: black;*/
-    width: 30px;
+    justify-content: flex-start
+  }
+  .right
+  {
+    justify-content: flex-end;
+  }
+  .icon
+  {
+    color: #D9E1E2;
+    font-size: 30px;
     height: 30px;
+    width: 30px;
   }
 
   /* Declare heights because of positioning of img element */
@@ -82,9 +90,13 @@
       font-size: 1.25rem;
       line-height: 1.4;
     }
-  
     .featurette-heading {
       font-size: 50px;
+    }
+
+    .navMobile
+    {
+
     }
   }
   

@@ -46,28 +46,19 @@
 </header>
 
 <main class="main">
-    <h1>Super Good Header Section: Own Div???</h1>
-    <h2>JUST CLICKABLE IMAGES / SNAPSHOTS</h2>
-    <h3>Animation</h3>
-    <h3>Game Trailer</h3>
-    <h3>Background??</h3>
-    <h3>Dev Club Submission</h3>
-    <h3>ECard: FIX AUDIO FIRST lol</h3>
+    <h1 class="bioP">ART</h1>
     <div class="container bodyContent">
         <div class="bodySpacing" >
-            <a class="video-btn" data-src="https://www.youtube.com/embed/0lsb1onYUjE" data-toggle="modal" data-target="#AnimationModal"><img src="../images/EllertsonNightmareFuel.jpg" class="images" alt="Animation"></a>
+            <a class="video-btn" data-src="" data-toggle="modal" data-target="#AnimationModal"><img src="../images/BATB.JPG" class="images" alt="Animation"></a>
         </div>
         <div class="bodySpacing">
-            <a class="video-btn" data-src="https://www.youtube.com/embed/hlFePYpjqrc" data-toggle="modal" data-target="#FeedModal"><img src="../images/EllertsonNightmareFuel.jpg" class="images" alt="Feed Game Trailer"></a>
+            <a class="video-btn" data-src="" data-toggle="modal" data-target="#FeedModal"><img src="../images/FEED.JPG" class="images" alt="Feed Game Trailer"></a>
         </div>
         <div class="bodySpacing">
-            <a data-toggle="modal" data-target="#BSUModal"><img src="../images/EllertsonNightmareFuel.jpg" class="images" alt="BSU B image"></a>
+            <a data-toggle="modal" data-target="#BSUModal"><img src="../images/Young_Background.png" class="images" alt="BSU B image"></a>
         </div>
         <div class="bodySpacing">
-            <a data-toggle="modal" data-target="#MourningModal"><img src="../images/EllertsonNightmareFuel.jpg" class="images" alt="Cemetary at Dawn"></a>
-        </div>
-        <div class="bodySpacing">
-            <a data-toggle="modal" data-target="#ECardModal"><img src="../images/EllertsonNightmareFuel.jpg" class="images" alt="Animated ECard"></a>
+            <a data-toggle="modal" data-target="#MourningModal"><img src="../images/MourningSunrise.jpg" class="images" alt="Cemetary at Dawn"></a>
         </div>
     </div>
 
@@ -75,18 +66,18 @@
 <div class="modal fade" id="AnimationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Animation</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-                    <iframe class="images" id="video" src="" allowscriptaccess="always" allow="autoplay"></iframe>
-                <p>My animation</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <video controls>
+                <source src="../images/Young_Animation_Final.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video> 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <p>My animation of the prologue of Beauty and the Beast. Remember to pause the video if you're closing this window before the end of the video!</p>
             </div>
           </div>
         </div>
@@ -105,12 +96,13 @@
               </button>        
               <!-- 16:9 aspect ratio -->
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hlFePYpjqrc"></iframe>
       </div>
-              
-              
+      <div class="modal-footer">
+      <p>A game trailer for one of my games. (Available to play on the games page!) Remember to pause the video if you're closing this window before the end of the video!</p>  
+    </div>
             </div>
-      
+            
           </div>
         </div>
       </div>
@@ -120,59 +112,36 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">BSU B</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <img src="../images/Young_Background.png" class="artStuff" alt="BSU B image">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <p> A worn-down version of the famous B at Boise State University.</p>
             </div>
           </div>
         </div>
 </div>
 
 <!-- Mourning Modal -->
-<div class="modal fade" id="MourningModal myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="MourningModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Mourning Sunrise</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <img src="../images/MourningSunrise.jpg" class="artStuff" alt="Cemetary at Dawn">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-</div>
-
-<!-- ECard Modal -->
-<div class="modal fade" id="ECardModal myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <p> A play on the words Morning/Mourning. Made in PhotoShop as a Dev Club submission.</p>
             </div>
           </div>
         </div>

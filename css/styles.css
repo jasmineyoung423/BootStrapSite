@@ -15,6 +15,18 @@
 {
   background-color: #F1E6B2;
 }
+
+  /* ALL PAGES */
+  .bodyContent
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .bodySpacing
+  {
+    margin: 10px;
+  }
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -88,22 +100,27 @@
     margin-left: .75rem;
   }
 
-  /* ALL PAGES */
-  .bodyContent
-  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .bodySpacing
-  {
-    margin: 10px;
-  }
-
   /* GAMES PAGE */
   .gamesBody
   {
     background-color: #DBE2E9;
+  }
+  .btnStyle
+  {
+    background-color: whitesmoke;
+  }
+  .gameContainer
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .gameStyling
+  {
+    margin-left: 20%;
+  }
+  .gameDirections
+  {
+    padding: 50px;
   }
   /* ART PAGE */
   .artBody
@@ -116,6 +133,11 @@
     height: 300px;
     border-radius: 50%;
   }
+  .artStuff
+  {
+    width:800px;
+    height:400px;
+  }
   /* LINKS PAGE */
   .linksBody
   {
@@ -125,6 +147,11 @@
   .bioBody
   {
     background-color: #ECC7CD;
+  }
+  .bioP
+  {
+    width:50%;
+    padding: 50px;
   }
 
   .modal-dialog {
